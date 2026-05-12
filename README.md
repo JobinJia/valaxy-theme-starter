@@ -102,6 +102,6 @@ Starter theme ref theme:
 
 <p align="center">
   <a href="https://sponsors.yunyoujun.cn">
-    <img src='https://fastly.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg'/>
+    <img alt="sponsors" src='https://fastly.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg'/>
   </a>
 </p>

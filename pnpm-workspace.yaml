@@ -1,21 +1,32 @@
 catalogMode: prefer
+
 cleanupUnusedCatalogs: true
 
 shellEmulator: true
+
 trustPolicy: no-downgrade
 
 packages:
   - theme
   - demo
+
+overrides:
+  chokidar: 4.0.1
+  semver: ^7
+
 catalog:
-  '@antfu/eslint-config': ^6.4.2
+  '@antfu/eslint-config': ^7.7.3
   '@iconify-json/ant-design': ^1.2.5
-  '@iconify-json/simple-icons': ^1.2.61
-  '@unocss/eslint-plugin': ^66.5.10
-  bumpp: ^10.3.2
-  eslint: ^9.39.1
+  '@iconify-json/simple-icons': ^1.2.78
+  '@unocss/eslint-plugin': ^66.6.8
+  bumpp: ^11.0.1
+  eslint: ^10.2.1
   eslint-plugin-format: ^1.1.0
   typescript: ^5.9.3
-  valaxy: ^0.26.10
-  vitest: ^4.0.15
-  vue-tsc: ^3.1.6
+  valaxy: ^0.28.5
+  vitest: ^4.1.4
+  vue-tsc: 2.2.0
+packageExtensions:
+  valaxy:
+    dependencies:
+      nanoid: ^5.1.9

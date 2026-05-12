@@ -74,5 +74,4 @@ The title is a primary title
 - [x] FLAG
       :::
 
-![]()
 _a_
